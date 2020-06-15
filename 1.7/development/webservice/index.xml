@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The PrestaShop Webservices on PrestaShop Developer Documentation</title>
+    <link>https://devdocs.prestashop.com/1.7/development/webservice/</link>
+    <description>Recent content in The PrestaShop Webservices on PrestaShop Developer Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://devdocs.prestashop.com/1.7/development/webservice/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cheat sheet</title>
+      <link>https://devdocs.prestashop.com/1.7/development/webservice/cheat-sheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://devdocs.prestashop.com/1.7/development/webservice/cheat-sheet/</guid>
+      <description>Cheat sheet for Webservice All these options can be added to your queries as query parameters (either GET or POST depending on the method used in your request).
+Generic Options    Key Value Description     output_format XML, JSON Change the output format   ps_method GET, POST, PUT, DELETE Override the HTTP method used for the request    Resource options    Key Value Result     language 3 Only display localized fields in one language    [3|5|.</description>
+    </item>
+    
+    <item>
+      <title>Reference</title>
+      <link>https://devdocs.prestashop.com/1.7/development/webservice/reference/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://devdocs.prestashop.com/1.7/development/webservice/reference/</guid>
+      <description>Web service reference All webservice APIs are accessible through the /api/ gateway. For instance, http://example.com/api/carriers
+Available HTTP methods Most resources can be accessed in a REST manner, with the 5 main HTTP request methods: GET, POST, PUT, DELETE, HEAD. The only exceptions are:
+   Key GET POST PUT DELETE HEAD     search X    X   stock_availables X X   X   stock_movements X    X   stocks X    X   supply_order_details X    X   supply_order_histories X    X   supply_order_receipt_histories X    X   supply_order_states X    X   supply_orders X    X   warehouse_product_locations X    X   warehouses X X X  X    All resources have two schemas that are accessible via a parameter:</description>
+    </item>
+    
+  </channel>
+</rss>
